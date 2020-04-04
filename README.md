@@ -16,6 +16,15 @@ After a single go file is packaged, only one executable program is generated for
 ```
 server --help
 ```
+将会打印如下内容 (The following will be printed)
+```
+Usage of server:
+  -d string
+        static file path default is file (default "file")
+  -p int
+        server port  default is 8888 (default 8888)
+```
+
 
 ![help](https://raw.githubusercontent.com/brok1n/file_forward/master/help.png "help")
 
